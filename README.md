@@ -16,11 +16,6 @@ A few resources to get you started if this is your first Flutter project:
 [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter, view our [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
-## Widgets
-- [SizedBox Widgets](https://snipboard.io/qMuBH9.jpg) 
-- [Container Widgets]()
-
-
 ## SizedBox Widgets
 - SizedBox does not contain colour attributes
 ```dart
@@ -34,6 +29,11 @@ body:Center(
 ```
 
 
+## Screenshots
+
+- SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)
+
+
 ## Authors
 
 - [@DevanshSadhya](https://github.com/DevanshSadhya)
@@ -42,4 +42,9 @@ body:Center(
 ## Support
 
 For support, email devanshsadhya77@gmail.com or join our discord channel.
+
+
+## Lessons Learned
+
+What did you learn while building this project? What challenges did you face and how did you overcome them?
 

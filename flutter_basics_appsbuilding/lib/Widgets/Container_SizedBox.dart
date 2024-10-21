@@ -10,6 +10,7 @@ class Container_SizedBox extends StatelessWidget {
         title: Text('Container and SizedBox '),
         backgroundColor:Colors.deepPurple,
       ),
+      backgroundColor: Colors.pinkAccent,
       //SIZEDBOX WIDGET CODE:-
       // body:Center(
       //   child: SizedBox(

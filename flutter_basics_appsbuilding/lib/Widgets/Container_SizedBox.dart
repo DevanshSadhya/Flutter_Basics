@@ -10,6 +10,7 @@ class Container_SizedBox extends StatelessWidget {
         title: Text('Container and SizedBox '),
         backgroundColor:Colors.deepPurple,
       ),
+      //SIZEDBOX WIDGET CODE:-
       // body:Center(
       //   child: SizedBox(
       //     height: 650,
@@ -17,15 +18,21 @@ class Container_SizedBox extends StatelessWidget {
       //     child: Center(child: Text('This is sized Box ')),
       //   ),
       // ) ,
+      //Container Widget code:-
       body: Center(
         child: Container(
           height: 250,
           width: 250,
-          child: Center(child: Text('This is Container',style: TextStyle(
-            fontSize: 30,
-            color: Colors.yellowAccent,
-          ),)),
-          color: Colors.blue,
+          decoration: BoxDecoration(
+            color: Colors.blue,
+            shape: BoxShape.circle,
+          ),
+          child: Center(child: Text('This is Container',style: TextStyle(fontSize: 30),)),
+          // child: Center(child: Text('This is Container',style: TextStyle(
+          //   fontSize: 30,
+          //   color: Colors.yellowAccent,
+          // ),)),
+          // color: Colors.blue,
         ),
       ),
     );

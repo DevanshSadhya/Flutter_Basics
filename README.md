@@ -50,8 +50,28 @@ body: Center(
         ),
       ),
 ```
+- ## Declaring two variables for MediaQueries for height and width of a mobile:-
 
+```dart
+@override
+  Widget build(BuildContext context) {
 
+    //defining two media quaries for width and height of the mobile
+    var w=MediaQuery.of(context).size.width;
+    var h=MediaQuery.of(context).size.height;
+```
+this should be written inside @override----context functions
+
+- ## Rows Widgets:-
+```dart
+```
+
+- ## Column Widgets:-
+```dart
+```
+- ## Wrap Widgets:-
+```dart
+```
 ## Screenshots
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)

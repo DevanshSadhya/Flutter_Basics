@@ -66,7 +66,54 @@ this should be written inside @override----context functions
 
 - ## Rows Widgets:-
 ```dart
-
+body: Container(
+        height: h,
+        width: w,
+        color: Colors.yellowAccent,
+        child: Row(
+          // mainAxisAlignment: MainAxisAlignment.center,  //Centering every Containers in a Row
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly, //GIVING SPACES BETWEEN EACH CONTAINER WITH MARGINS
+          crossAxisAlignment: CrossAxisAlignment.stretch, //stretching each container with mobile height and width 
+          children: [
+            //Container 1
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.red,
+            ),
+            //Container 2
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.blue,
+            ),
+            //Container 3
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.green,
+            ),
+            //Container 4
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.black,
+            ),
+            //Container 5
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.pinkAccent,
+            ),
+            //Container 6
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.grey,
+            ),
+          ],
+        ),
+      ),
 ```
 
 - ## Column Widgets:-

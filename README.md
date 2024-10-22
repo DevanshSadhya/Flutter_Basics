@@ -190,6 +190,7 @@ body: Container(
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)
 - Container Widgets ![Container Widgets](https://snipboard.io/ntLaHo.jpg)
+- Rows Widget ![Rows Widgets](https://snipboard.io/GejF5y.jpg)
 
 ## Authors
 

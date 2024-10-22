@@ -16,6 +16,8 @@ A few resources to get you started if this is your first Flutter project:
 [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter, view our [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+## Rows and Columns 
+![Rows and Columns](https://miro.medium.com/v2/resize:fit:1062/1*3fFhf0jp9KfulswqM4HbRA.png)
 ## Widgets
 
 - ## SizedBox
@@ -64,18 +66,22 @@ this should be written inside @override----context functions
 
 - ## Rows Widgets:-
 ```dart
+
 ```
 
 - ## Column Widgets:-
 ```dart
+
 ```
 - ## Wrap Widgets:-
 ```dart
+
 ```
 ## Screenshots
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)
 - Container Widgets ![Container Widgets](https://snipboard.io/ntLaHo.jpg)
+
 ## Authors
 
 - [@DevanshSadhya](https://github.com/DevanshSadhya)

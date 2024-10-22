@@ -21,17 +21,44 @@ class RowsCols extends StatelessWidget {
         width: w,
         color: Colors.yellowAccent,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,  //Centering every Containers in a Row
           children: [
+            //Container 1
             Container(
               height: 60,
               width: 60,
               color: Colors.red,
             ),
+            //Container 2
             Container(
               height: 60,
               width: 60,
               color: Colors.blue,
-            )
+            ),
+            //Container 3
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.green,
+            ),
+            //Container 4
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.black,
+            ),
+            //Container 5
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.pinkAccent,
+            ),
+            //Container 6
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.grey,
+            ),
           ],
         ),
       ),

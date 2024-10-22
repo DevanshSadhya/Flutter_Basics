@@ -16,9 +16,24 @@ class RowsCols extends StatelessWidget {
         title: Text("Rows,Columns and Wrap Widgets"),
         backgroundColor: Colors.grey,
       ),
-      backgroundColor: Colors.purpleAccent,
       body: Container(
-
+        height: h,
+        width: w,
+        color: Colors.yellowAccent,
+        child: Row(
+          children: [
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.red,
+            ),
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.blue,
+            )
+          ],
+        ),
       ),
     );
   }

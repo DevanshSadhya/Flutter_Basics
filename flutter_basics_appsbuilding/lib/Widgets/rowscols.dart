@@ -16,49 +16,83 @@ class RowsCols extends StatelessWidget {
         title: Text("Rows,Columns and Wrap Widgets"),
         backgroundColor: Colors.grey,
       ),
+      // body: Container(
+      //   height: h,
+      //   width: w,
+      //   color: Colors.yellowAccent,
+      //   child: Row(
+      //     // mainAxisAlignment: MainAxisAlignment.center,  //Centering every Containers in a Row
+      //     mainAxisAlignment: MainAxisAlignment.spaceEvenly, //GIVING SPACES BETWEEN EACH CONTAINER WITH MARGINS
+      //     crossAxisAlignment: CrossAxisAlignment.stretch, //stretching each container with mobile height and width
+      //     children: [
+      //       //Container 1
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.red,
+      //       ),
+      //       //Container 2
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.blue,
+      //       ),
+      //       //Container 3
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.green,
+      //       ),
+      //       //Container 4
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.black,
+      //       ),
+      //       //Container 5
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.pinkAccent,
+      //       ),
+      //       //Container 6
+      //       Container(
+      //         height: 60,
+      //         width: 60,
+      //         color: Colors.grey,
+      //       ),
+      //     ],
+      //   ),
+      // ),
       body: Container(
         height: h,
         width: w,
-        color: Colors.yellowAccent,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,  //Centering every Containers in a Row
+        child: Column(
           children: [
-            //Container 1
+            //Container 1 of coloumn widgets
             Container(
               height: 60,
               width: 60,
               color: Colors.red,
             ),
-            //Container 2
+            //Container 2 of column widgets
             Container(
               height: 60,
               width: 60,
               color: Colors.blue,
             ),
-            //Container 3
+            //container 3 of coloumn widgets
             Container(
               height: 60,
               width: 60,
-              color: Colors.green,
+              color: Colors.yellowAccent,
             ),
-            //Container 4
+            //Container 4 of column widgets
             Container(
               height: 60,
               width: 60,
-              color: Colors.black,
-            ),
-            //Container 5
-            Container(
-              height: 60,
-              width: 60,
-              color: Colors.pinkAccent,
-            ),
-            //Container 6
-            Container(
-              height: 60,
-              width: 60,
-              color: Colors.grey,
-            ),
+              color: Colors.orangeAccent,
+            )
           ],
         ),
       ),

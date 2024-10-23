@@ -184,13 +184,48 @@ body: Container(
 
 - ## Column Widgets:-
 ```dart
-
+body: Container(
+        height: h,
+        width: w,
+        color: Colors.pinkAccent,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            //Container 1 of coloumn widgets
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.purpleAccent,
+            ),
+            //Container 2 of column widgets
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.blue,
+            ),
+            //container 3 of coloumn widgets
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.yellowAccent,
+            ),
+            //Container 4 of column widgets
+            Container(
+              height: 60,
+              width: 60,
+              color: Colors.orangeAccent,
+            )
+          ],
+        ),
+      ),
 ```
 ## Screenshots
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)
 - Container Widgets ![Container Widgets](https://snipboard.io/ntLaHo.jpg)
 - Rows Widget ![Rows Widgets](https://snipboard.io/GejF5y.jpg)
+- Column Widget ![Column Widgets](https://snipboard.io/2DFKNr.jpg)
 
 ## Authors
 

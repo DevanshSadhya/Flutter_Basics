@@ -67,13 +67,16 @@ class RowsCols extends StatelessWidget {
       body: Container(
         height: h,
         width: w,
+        color: Colors.pinkAccent,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             //Container 1 of coloumn widgets
             Container(
               height: 60,
               width: 60,
-              color: Colors.red,
+              color: Colors.purpleAccent,
             ),
             //Container 2 of column widgets
             Container(

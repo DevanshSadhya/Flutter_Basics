@@ -86,7 +86,7 @@ Your application code is in my_first_app\lib\main.dart.
 ![Rows and Columns](https://miro.medium.com/v2/resize:fit:1062/1*3fFhf0jp9KfulswqM4HbRA.png)
 ## Widgets
 
-- ## SizedBox
+- ## (1) SizedBox
 It does not contain colour attributes
 ```dart
 body:Center(
@@ -97,7 +97,7 @@ body:Center(
         ),
       ) ,
 ```
-- ## Container Widgets 
+- ## (2) Container Widgets 
 It contain Multiple Paramaters such as color,child,height,width,decorations,etc
 
 ```dart
@@ -118,7 +118,7 @@ body: Center(
         ),
       ),
 ```
-- ## Declaring two variables for MediaQueries for height and width of a mobile:-
+- ## (3) Declaring two variables for MediaQueries for height and width of a mobile:-
 
 ```dart
 @override
@@ -130,7 +130,7 @@ body: Center(
 ```
 this should be written inside @override----context functions
 
-- ## Rows Widgets:-
+- ## (4) Rows Widgets:-
 ```dart
 body: Container(
         height: h,
@@ -182,7 +182,7 @@ body: Container(
       ),
 ```
 
-- ## Column Widgets:-
+- ## (6) Column Widgets:-
 ```dart
 body: Container(
         height: h,
@@ -220,6 +220,18 @@ body: Container(
         ),
       ),
 ```
+- ## (7) BUttons Widgets:-
+Here in this section we will explore two different types of buttons that we have in our buttons widgets line by line.
+
+lets get started:-
+
+- ## 7(a) TextButton Widget
+```dart
+``` 
+- ## 7(b) ElevatedButton Widget
+```dart
+```
+
 ## Screenshots
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)

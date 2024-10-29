@@ -227,9 +227,52 @@ lets get started:-
 
 - ## 7(a) TextButton Widget
 ```dart
+ body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+
+            // TextButtons
+
+            child: TextButton(
+              onPressed: (){
+                print("TextButton"); //printing the output in the console
+              },
+              child: Text("Press Me",style: TextStyle(
+                fontSize: 25,
+                color: Colors.black
+              ),),
+              style: ButtonStyle(
+                // padding: WidgetStatePropertyAll(EdgeInsets.all(50)),
+                overlayColor: WidgetStatePropertyAll(Colors.red),
+                backgroundColor: WidgetStatePropertyAll(Colors.yellow)
+              ),
+            ),
+          ),
+
 ``` 
 - ## 7(b) ElevatedButton Widget
 ```dart
+ //Elevated Buttons
+
+          Container(
+            // height: 70,
+            // width: 200,
+            child: ElevatedButton(
+              style: ButtonStyle(
+                backgroundColor: WidgetStatePropertyAll(Colors.red),
+                overlayColor: WidgetStatePropertyAll(Colors.blue),
+              ),
+              onPressed: (){
+                print("Elevated Button"); //printing the output in console
+              },
+              child: Text("Elevated Buttons",style: TextStyle(
+                fontSize: 25,
+                color: Colors.yellow,
+
+              ),),
+            ),
+          )
 ```
 
 ## Screenshots
@@ -238,6 +281,7 @@ lets get started:-
 - Container Widgets ![Container Widgets](https://snipboard.io/ntLaHo.jpg)
 - Rows Widget ![Rows Widgets](https://snipboard.io/GejF5y.jpg)
 - Column Widget ![Column Widgets](https://snipboard.io/2DFKNr.jpg)
+- TextButton and ElevatedButton Widget ![Button Widgets](https://snipboard.io/CmXa4x.jpg)
 
 ## Authors
 

@@ -274,7 +274,42 @@ lets get started:-
             ),
           )
 ```
+- ## creating a list and Map for storing values for a listView.builder
+```dart
+//creating a function for a listView when we dont know the exact length of a cards to be drawn
+  List<String> fruits=["Oranges","Mangoes","Apples","banana"];
+  Map fruits_person={
+    "fruits":["Oranges","Mangoes","Apples","banana"],
+    "names": ["Devansh","Subhansh","Shivansh","asif"]
+  };
+```
+P.S :- this should be written under the statefull widget between the "context functions" and "override"
 
+- ## ListView Widget
+```dart
+body: Container(
+        child: ListView.builder(
+          itemCount: fruits.length,
+          itemBuilder: (context, index) {
+            return Card(
+              child: ListTile(
+                onTap: (){
+                  print(fruits_person["fruits"][index]);
+                  print(fruits_person["names"][index]);
+                },
+                leading: Icon(Icons.person),
+                title: Text(fruits_person["fruits"][index]),
+                subtitle: Text(fruits_person["names"][index]),
+              ),
+            );
+          },
+        ),
+      ),
+```
+- ## GridView Widget
+```dart
+
+```
 ## Screenshots
 
 - SizedBox Widget ![SizedBox Widgets](https://snipboard.io/DLd4TM.jpg)
@@ -282,7 +317,7 @@ lets get started:-
 - Rows Widget ![Rows Widgets](https://snipboard.io/GejF5y.jpg)
 - Column Widget ![Column Widgets](https://snipboard.io/2DFKNr.jpg)
 - TextButton and ElevatedButton Widget ![Button Widgets](https://snipboard.io/CmXa4x.jpg)
-
+- ListView Widgets ![ListView Widget](https://snipboard.io/0bQ9px.jpg)
 ## Authors
 
 - [@DevanshSadhya](https://github.com/DevanshSadhya)

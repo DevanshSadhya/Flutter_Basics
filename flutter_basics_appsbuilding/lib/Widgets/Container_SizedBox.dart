@@ -8,7 +8,7 @@ class Container_SizedBox extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Container and SizedBox '),
-        backgroundColor:Colors.deepPurple,
+        backgroundColor: Colors.deepPurple,
       ),
       backgroundColor: Colors.pinkAccent,
       //SIZEDBOX WIDGET CODE:-
@@ -28,7 +28,11 @@ class Container_SizedBox extends StatelessWidget {
             color: Colors.blue,
             shape: BoxShape.circle,
           ),
-          child: Center(child: Text('This is Container',style: TextStyle(fontSize: 30),)),
+          child: Center(
+              child: Text(
+            'This is Container',
+            style: TextStyle(fontSize: 30),
+          )),
           // child: Center(child: Text('This is Container',style: TextStyle(
           //   fontSize: 30,
           //   color: Colors.yellowAccent,
@@ -39,4 +43,3 @@ class Container_SizedBox extends StatelessWidget {
     );
   }
 }
-

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class ListGrid extends StatefulWidget {
   const ListGrid({super.key});
 
@@ -7,14 +8,13 @@ class ListGrid extends StatefulWidget {
 }
 
 class _ListGridState extends State<ListGrid> {
-  
   //creating a function for a listView when we dont know the exact length of a cards to be drawn
-  List<String> fruits=["Oranges","Mangoes","Apples","banana"];
-  Map fruits_person={
-    "fruits":["Oranges","Mangoes","Apples","banana"],
-    "names": ["Devansh","Subhansh","Shivansh","asif"]
+  List<String> fruits = ["Oranges", "Mangoes", "Apples", "banana"];
+  Map fruits_person = {
+    "fruits": ["Oranges", "Mangoes", "Apples", "banana"],
+    "names": ["Devansh", "Subhansh", "Shivansh", "asif"]
   };
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,7 +29,7 @@ class _ListGridState extends State<ListGrid> {
           itemBuilder: (context, index) {
             return Card(
               child: ListTile(
-                onTap: (){
+                onTap: () {
                   print(fruits_person["fruits"][index]);
                   print(fruits_person["names"][index]);
                 },

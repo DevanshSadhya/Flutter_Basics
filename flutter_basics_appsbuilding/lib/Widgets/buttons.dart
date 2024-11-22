@@ -15,22 +15,20 @@ class ButtonWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-
             // TextButtons
 
             child: TextButton(
-              onPressed: (){
+              onPressed: () {
                 print("TextButton"); //printing the output in the console
               },
-              child: Text("Press Me",style: TextStyle(
-                fontSize: 25,
-                color: Colors.black
-              ),),
-              style: ButtonStyle(
-                // padding: WidgetStatePropertyAll(EdgeInsets.all(50)),
-                overlayColor: WidgetStatePropertyAll(Colors.red),
-                backgroundColor: WidgetStatePropertyAll(Colors.yellow)
+              child: Text(
+                "Press Me",
+                style: TextStyle(fontSize: 25, color: Colors.black),
               ),
+              style: ButtonStyle(
+                  // padding: WidgetStatePropertyAll(EdgeInsets.all(50)),
+                  overlayColor: WidgetStatePropertyAll(Colors.red),
+                  backgroundColor: WidgetStatePropertyAll(Colors.yellow)),
             ),
           ),
 
@@ -46,14 +44,16 @@ class ButtonWidget extends StatelessWidget {
                 backgroundColor: WidgetStatePropertyAll(Colors.red),
                 overlayColor: WidgetStatePropertyAll(Colors.blue),
               ),
-              onPressed: (){
+              onPressed: () {
                 print("Elevated Button"); //printing the output in console
               },
-              child: Text("Elevated Buttons",style: TextStyle(
-                fontSize: 25,
-                color: Colors.yellow,
-
-              ),),
+              child: Text(
+                "Elevated Buttons",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.yellow,
+                ),
+              ),
             ),
           )
         ],
